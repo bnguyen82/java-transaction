@@ -17,19 +17,16 @@ public class ContactServiceImpl implements ContactService {
 	@Autowired
 	private ContactDAO contactDAO;
 
-	@Transactional(isolation=Isolation.SERIALIZABLE)
 	public void addContact(Contact contact) {
 		contactDAO.addContact(contact);
 		listContact();
 	}
 
-	@Transactional(propagation=Propagation.NOT_SUPPORTED,isolation=Isolation.SERIALIZABLE)
 	public List<Contact> listContact() {
 
 		return contactDAO.listContact();
 	}
 
-	@Transactional
 	public void removeContact(Integer id) {
 		contactDAO.removeContact(id);
 	}

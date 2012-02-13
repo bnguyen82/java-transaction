@@ -5,6 +5,7 @@ import java.util.List;
 import net.viralpatel.contact.form.Contact;
 
 import org.hibernate.SessionFactory;
+import org.hibernate.classic.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -20,8 +21,10 @@ public class ContactDAOImpl implements ContactDAO {
 
 	public List<Contact> listContact() {
 
-		return sessionFactory.getCurrentSession().createQuery("from Contact")
-				.list();
+//		return sessionFactory.getCurrentSession().createQuery("from Contact")
+//				.list();
+		Session ses = sessionFactory.openSession();
+		return ses.createQuery("from Contact").list();
 	}
 
 	public void removeContact(Integer id) {

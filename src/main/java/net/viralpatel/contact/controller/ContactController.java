@@ -33,7 +33,7 @@ public class ContactController {
 	Contact contact, BindingResult result) {
 
 		contactService.addContact(contact);
-
+//		contactService.listContact();
 		return "redirect:/index";
 	}
 

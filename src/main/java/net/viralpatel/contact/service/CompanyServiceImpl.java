@@ -12,25 +12,22 @@ import net.viralpatel.contact.dao.ContactDAO;
 import net.viralpatel.contact.form.Contact;
 
 @Service
-public class ContactServiceImpl implements ContactService {
+public class CompanyServiceImpl implements CompanyService {
 
 	@Autowired
 	private ContactDAO contactDAO;
 
-	@Transactional(isolation=Isolation.SERIALIZABLE)
-	public void addContact(Contact contact) {
-		contactDAO.addContact(contact);
-		listContact();
-	}
-
-	@Transactional(isolation=Isolation.SERIALIZABLE)
+//	public void addContact(Contact contact) {
+//		contactDAO.addContact(contact);
+//		listContact();
+//	}
+	@Transactional(propagation=Propagation.REQUIRES_NEW)
 	public List<Contact> listContact() {
 
 		return contactDAO.listContact();
 	}
 
-	@Transactional
-	public void removeContact(Integer id) {
-		contactDAO.removeContact(id);
-	}
+//	public void removeContact(Integer id) {
+//		contactDAO.removeContact(id);
+//	}
 }

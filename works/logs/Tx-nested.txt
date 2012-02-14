@@ -1,0 +1,210 @@
+83614 [http-8082-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'transactionManager'
+83614 [http-8082-2] DEBUG org.springframework.orm.hibernate3.HibernateTransactionManager  - Creating new transaction with name [net.viralpatel.contact.service.ContactServiceImpl.listContact]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+83614 [http-8082-2] DEBUG org.hibernate.impl.SessionImpl  - opened session at timestamp: 13291912212
+83614 [http-8082-2] DEBUG org.springframework.orm.hibernate3.HibernateTransactionManager  - Opened new Session [org.hibernate.impl.SessionImpl@8ef465] for Hibernate transaction
+83615 [http-8082-2] DEBUG org.springframework.orm.hibernate3.HibernateTransactionManager  - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@8ef465]
+83615 [http-8082-2] DEBUG org.hibernate.transaction.JDBCTransaction  - begin
+83615 [http-8082-2] DEBUG org.hibernate.jdbc.ConnectionManager  - opening JDBC connection
+83615 [http-8082-2] DEBUG org.hibernate.transaction.JDBCTransaction  - current autocommit status: true
+83615 [http-8082-2] DEBUG org.hibernate.transaction.JDBCTransaction  - disabling autocommit
+83616 [http-8082-2] DEBUG org.springframework.orm.hibernate3.HibernateTransactionManager  - Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/ContactManager, UserName=root@localhost, MySQL-AB JDBC Driver]
+83616 [http-8082-2] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'transactionManager'
+83616 [http-8082-2] DEBUG org.springframework.orm.hibernate3.HibernateTransactionManager  - Found thread-bound Session [org.hibernate.impl.SessionImpl@8ef465] for Hibernate transaction
+83616 [http-8082-2] DEBUG org.springframework.orm.hibernate3.HibernateTransactionManager  - Creating nested transaction with name [net.viralpatel.contact.service.CompanyServiceImpl.listContact]
+84696 [http-8082-2] DEBUG org.hibernate.impl.SessionImpl  - opened session at timestamp: 13291912223
+84696 [http-8082-2] DEBUG org.hibernate.jdbc.AbstractBatcher  - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+84696 [http-8082-2] DEBUG org.hibernate.jdbc.ConnectionManager  - opening JDBC connection
+84710 [http-8082-2] DEBUG org.hibernate.SQL  - select contact0_.ID as ID0_, contact0_.EMAIL as EMAIL0_, contact0_.FIRSTNAME as FIRSTNAME0_, contact0_.LASTNAME as LASTNAME0_, contact0_.TELEPHONE as TELEPHONE0_ from CONTACTS contact0_
+Hibernate: select contact0_.ID as ID0_, contact0_.EMAIL as EMAIL0_, contact0_.FIRSTNAME as FIRSTNAME0_, contact0_.LASTNAME as LASTNAME0_, contact0_.TELEPHONE as TELEPHONE0_ from CONTACTS contact0_
+84712 [http-8082-2] DEBUG org.hibernate.jdbc.AbstractBatcher  - about to open ResultSet (open ResultSets: 0, globally: 0)
+84712 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#1]
+84712 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#2]
+84712 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#3]
+84712 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#4]
+84712 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#5]
+84712 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#6]
+84712 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#7]
+84712 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#8]
+84712 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#9]
+84712 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#10]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#11]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#12]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#13]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#14]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#15]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#16]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#17]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#19]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#20]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#21]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#22]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#23]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#24]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#25]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#26]
+84713 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#27]
+84714 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#28]
+84714 [http-8082-2] DEBUG org.hibernate.jdbc.AbstractBatcher  - about to close ResultSet (open ResultSets: 1, globally: 1)
+84714 [http-8082-2] DEBUG org.hibernate.jdbc.AbstractBatcher  - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#1]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#1]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#2]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#2]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#3]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#3]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#4]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#4]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#5]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#5]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#6]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#6]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#7]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#7]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#8]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#8]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#9]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#9]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#10]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#10]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#11]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#11]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#12]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#12]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#13]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#13]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#14]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#14]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#15]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#15]
+84714 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#16]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#16]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#17]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#17]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#19]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#19]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#20]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#20]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#21]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#21]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#22]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#22]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#23]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#23]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#24]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#24]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#25]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#25]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#26]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#26]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#27]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#27]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#28]
+84715 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#28]
+84715 [http-8082-2] DEBUG org.hibernate.engine.StatefulPersistenceContext  - initializing non-lazy collections
+84715 [http-8082-2] DEBUG org.springframework.orm.hibernate3.HibernateTransactionManager  - Releasing transaction savepoint
+86213 [http-8082-2] DEBUG org.hibernate.impl.SessionImpl  - opened session at timestamp: 13291912238
+86214 [http-8082-2] DEBUG org.hibernate.jdbc.AbstractBatcher  - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+86214 [http-8082-2] DEBUG org.hibernate.jdbc.ConnectionManager  - opening JDBC connection
+86240 [http-8082-2] DEBUG org.hibernate.SQL  - select contact0_.ID as ID0_, contact0_.EMAIL as EMAIL0_, contact0_.FIRSTNAME as FIRSTNAME0_, contact0_.LASTNAME as LASTNAME0_, contact0_.TELEPHONE as TELEPHONE0_ from CONTACTS contact0_
+Hibernate: select contact0_.ID as ID0_, contact0_.EMAIL as EMAIL0_, contact0_.FIRSTNAME as FIRSTNAME0_, contact0_.LASTNAME as LASTNAME0_, contact0_.TELEPHONE as TELEPHONE0_ from CONTACTS contact0_
+86241 [http-8082-2] DEBUG org.hibernate.jdbc.AbstractBatcher  - about to open ResultSet (open ResultSets: 0, globally: 0)
+86241 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#1]
+86241 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#2]
+86241 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#3]
+86241 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#4]
+86241 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#5]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#6]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#7]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#8]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#9]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#10]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#11]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#12]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#13]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#14]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#15]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#16]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#17]
+86242 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#19]
+86243 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#20]
+86243 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#21]
+86243 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#22]
+86243 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#23]
+86243 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#24]
+86243 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#25]
+86243 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#26]
+86243 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#27]
+86243 [http-8082-2] DEBUG org.hibernate.loader.Loader  - result row: EntityKey[net.viralpatel.contact.form.Contact#28]
+86243 [http-8082-2] DEBUG org.hibernate.jdbc.AbstractBatcher  - about to close ResultSet (open ResultSets: 1, globally: 1)
+86243 [http-8082-2] DEBUG org.hibernate.jdbc.AbstractBatcher  - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#1]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#1]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#2]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#2]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#3]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#3]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#4]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#4]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#5]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#5]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#6]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#6]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#7]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#7]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#8]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#8]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#9]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#9]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#10]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#10]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#11]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#11]
+86244 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#12]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#12]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#13]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#13]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#14]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#14]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#15]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#15]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#16]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#16]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#17]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#17]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#19]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#19]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#20]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#20]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#21]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#21]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#22]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#22]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#23]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#23]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#24]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#24]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#25]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#25]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#26]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#26]
+86245 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#27]
+86246 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#27]
+86246 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - resolving associations for [net.viralpatel.contact.form.Contact#28]
+86246 [http-8082-2] DEBUG org.hibernate.engine.TwoPhaseLoad  - done materializing entity [net.viralpatel.contact.form.Contact#28]
+86246 [http-8082-2] DEBUG org.hibernate.engine.StatefulPersistenceContext  - initializing non-lazy collections
+86246 [http-8082-2] DEBUG org.springframework.orm.hibernate3.HibernateTransactionManager  - Initiating transaction commit
+91453 [http-8082-2] DEBUG org.springframework.orm.hibernate3.HibernateTransactionManager  - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@8ef465]
+91453 [http-8082-2] DEBUG org.hibernate.transaction.JDBCTransaction  - commit
+91454 [http-8082-2] DEBUG org.hibernate.transaction.JDBCTransaction  - re-enabling autocommit
+91454 [http-8082-2] DEBUG org.hibernate.transaction.JDBCTransaction  - committed JDBC Connection
+91454 [http-8082-2] DEBUG org.hibernate.jdbc.ConnectionManager  - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+91454 [http-8082-2] DEBUG org.springframework.orm.hibernate3.HibernateTransactionManager  - Closing Hibernate Session [org.hibernate.impl.SessionImpl@8ef465] after transaction
+91454 [http-8082-2] DEBUG org.springframework.orm.hibernate3.SessionFactoryUtils  - Closing Hibernate Session
+91454 [http-8082-2] DEBUG org.hibernate.jdbc.ConnectionManager  - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+91454 [http-8082-2] DEBUG org.hibernate.jdbc.ConnectionManager  - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+91455 [http-8082-2] DEBUG org.springframework.web.servlet.DispatcherServlet  - Rendering view [org.springframework.web.servlet.view.JstlView: name 'contact'; URL [/WEB-INF/jsp/contact.jsp]] in DispatcherServlet with name 'spring'
+91455 [http-8082-2] DEBUG org.springframework.web.servlet.view.JstlView  - Added model object 'contactList' of type [java.util.ArrayList] to request in view with name 'contact'
+91455 [http-8082-2] DEBUG org.springframework.web.servlet.view.JstlView  - Added model object 'org.springframework.validation.BindingResult.contact' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'contact'
+91455 [http-8082-2] DEBUG org.springframework.web.servlet.view.JstlView  - Added model object 'contact' of type [net.viralpatel.contact.form.Contact] to request in view with name 'contact'
+91455 [http-8082-2] DEBUG org.springframework.web.servlet.view.JstlView  - Forwarding to resource [/WEB-INF/jsp/contact.jsp] in InternalResourceView 'contact'
+91471 [http-8082-2] DEBUG org.springframework.web.servlet.DispatcherServlet  - Successfully completed request

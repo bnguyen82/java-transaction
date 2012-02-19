@@ -33,7 +33,7 @@ public class ContactController {
 	Contact contact, BindingResult result) {
 
 		contactService.addContact(contact);
-//		contactService.listContact();
+		contactService.listContact();
 		return "redirect:/index";
 	}
 
@@ -42,7 +42,8 @@ public class ContactController {
 	Integer contactId) {
 
 		contactService.removeContact(contactId);
-
+//		contactService.listContact();
 		return "redirect:/index";
 	}
+
 }
